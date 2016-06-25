@@ -1,10 +1,13 @@
 <?php
+// Failas, skirtas prisijungimui pire duomenų bazės
 
+// Čia įveskite duomenis prisijungimui prie duomenų bazės
 $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "amadeus";
 
+// Prisijungiama prie duomenų bazės
 $conn = new mysqli($servername, $username, $password, $dbname);
 $conn->set_charset("utf8");
 
