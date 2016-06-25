@@ -5,7 +5,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "amadeus";
+$dbname = "database";
 
 // Prisijungiama prie duomenų bazės
 $conn = new mysqli($servername, $username, $password, $dbname);
